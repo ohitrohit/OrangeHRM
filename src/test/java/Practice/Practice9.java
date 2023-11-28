@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import UtilityFiles.WebDriverUtility;
+import orangeHRM.GenericUtilities.WebDriverUtility;
 
 public class Practice9 {
 

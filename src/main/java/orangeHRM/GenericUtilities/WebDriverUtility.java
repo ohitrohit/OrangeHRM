@@ -1,4 +1,4 @@
-package UtilityFiles;
+package orangeHRM.GenericUtilities;
 
 import java.io.File;
 import java.io.IOException;
