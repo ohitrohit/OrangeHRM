@@ -54,7 +54,7 @@ public class HomePage {
 	 * this method is used for get the homepage text
 	 * @param driver
 	 */
-	public void GetHomepageText(WebDriver driver) {
+	public void GetHomepageText() {
 		String db = DashboardText.getText();
 		System.out.println(db);
 	}
@@ -62,7 +62,7 @@ public class HomePage {
 	 * this method is used for click on the PIM button
 	 * @param driver
 	 */
-	public void ClickOnPIMButton(WebDriver driver) {
+	public void ClickOnPIMButton() {
 		PIMButton.click();
 	}
 	
@@ -70,7 +70,7 @@ public class HomePage {
 	 * this method is used for Logout
 	 * @param driver
 	 */
-	public void LogOut(WebDriver driver) {
+	public void LogOut() {
 	
 		ProfileDropDown.click();
 		LogOutButton.click();

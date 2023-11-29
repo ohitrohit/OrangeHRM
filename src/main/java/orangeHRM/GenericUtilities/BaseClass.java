@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import orangeHRM.ObjectRepository.HomePage;
 import orangeHRM.ObjectRepository.LoginPage;
 
 public class BaseClass {
@@ -23,7 +24,7 @@ public class BaseClass {
 	 public PropertyFileUtility pUtil = new PropertyFileUtility();
 	 public ExcelFileUtility eUtil = new ExcelFileUtility();
 	 public JavaUtility jUtil = new JavaUtility();
-	 WebDriver driver;
+	 protected WebDriver driver;
 	
 	//@BeforeSuite()
 	//@BeforeTest()
@@ -34,7 +35,7 @@ public class BaseClass {
 		if(BROWSER.equalsIgnoreCase("Edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-			System.out.println("----------Browser Launch");
+			System.out.println("----------Browser Launch----------");
 		}else {
 			System.out.println("Invalid browser name");
 		}
@@ -53,11 +54,14 @@ public class BaseClass {
 	}
 	@AfterMethod()
 	public void amConfig() {
-		
+		HomePage hm = new HomePage(driver);
+		hm.LogOut();
+		System.out.println("-------Logout Successfully-----------------");
 	}
 	@AfterClass()
 	public void acConfig() {
-		
+		driver.quit();
+		System.out.println("-----------Browser Close Sucessfully-----------");
 	}
 	//@AfterTest()
 	//@AfterSuite()
