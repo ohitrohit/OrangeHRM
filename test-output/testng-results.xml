@@ -11,20 +11,20 @@
       <![CDATA[Create new employee successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-29T21:59:26 IST" name="Default suite" finished-at="2023-11-29T21:59:49 IST" duration-ms="22830">
+  <suite started-at="2023-11-29T22:48:34 IST" name="Default suite" finished-at="2023-11-29T22:48:51 IST" duration-ms="16244">
     <groups>
     </groups>
-    <test started-at="2023-11-29T21:59:26 IST" name="Default test" finished-at="2023-11-29T21:59:49 IST" duration-ms="22830">
+    <test started-at="2023-11-29T22:48:34 IST" name="Default test" finished-at="2023-11-29T22:48:51 IST" duration-ms="16244">
       <class name="orangeHRM.CreateEmployee.CreateEmpoyee">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T21:59:26 IST" name="bcConfig" finished-at="2023-11-29T21:59:39 IST" duration-ms="13331" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:34 IST" name="bcConfig" finished-at="2023-11-29T22:48:42 IST" duration-ms="7359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T21:59:39 IST" name="bmConfig" finished-at="2023-11-29T21:59:43 IST" duration-ms="3133" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:42 IST" name="bmConfig" finished-at="2023-11-29T22:48:44 IST" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createEmployee()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T21:59:43 IST" name="createEmployee" finished-at="2023-11-29T21:59:47 IST" duration-ms="4758" status="PASS">
+        <test-method signature="createEmployee()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:44 IST" name="createEmployee" finished-at="2023-11-29T22:48:49 IST" duration-ms="4749" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on the PIM button successfully]]>
@@ -37,11 +37,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- createEmployee -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T21:59:47 IST" name="amConfig" finished-at="2023-11-29T21:59:48 IST" duration-ms="1227" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:49 IST" name="amConfig" finished-at="2023-11-29T22:48:50 IST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T21:59:48 IST" name="acConfig" finished-at="2023-11-29T21:59:49 IST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:50 IST" name="acConfig" finished-at="2023-11-29T22:48:51 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->

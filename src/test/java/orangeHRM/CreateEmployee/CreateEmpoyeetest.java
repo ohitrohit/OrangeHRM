@@ -11,7 +11,7 @@ import orangeHRM.ObjectRepository.AddEmployeePage;
 import orangeHRM.ObjectRepository.HomePage;
 import orangeHRM.ObjectRepository.PIMPage;
 
-public class CreateEmpoyee extends BaseClass{
+public class CreateEmpoyeetest extends BaseClass{
 
 	@Test
 	public void createEmployee() throws EncryptedDocumentException, IOException {
