@@ -28,6 +28,15 @@ public class General_Scriptfor_OrangeHRM {
 		int y = location.getY();
 		System.out.println("x= "+x);
 		System.out.println("y= "+y);
+		driver.findElement(By.xpath("//ul[@class= 'oxd-main-menu']/li[2]/a/span[text()='PIM']")).click();
+		driver.findElement(By.xpath("//button[@type='button']/i[@class='oxd-icon bi-plus oxd-button-icon']")).click();
+		WebElement name = driver.findElement(By.name("firstName"));
+		name.sendKeys("roli3");
+		driver.findElement(By.name("lastName")).sendKeys("ram3");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.xpath("//ul[@class= 'oxd-main-menu']/li[2]/a/span[text()='PIM']")).click();
+		
+		
 		Thread.sleep(5000);
 		driver.quit();
 	}

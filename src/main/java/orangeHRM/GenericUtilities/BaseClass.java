@@ -15,13 +15,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import orangeHRM.ObjectRepository.LoginPage;
 
 public class BaseClass {
 
-	 WebDriverUtility wUtil = new WebDriverUtility();
-	 PropertyFileUtility pUtil = new PropertyFileUtility();
-	 ExcelFileUtility eUtil = new ExcelFileUtility();
-	 JavaUtility jUtil = new JavaUtility();
+	 public WebDriverUtility wUtil = new WebDriverUtility();
+	 public PropertyFileUtility pUtil = new PropertyFileUtility();
+	 public ExcelFileUtility eUtil = new ExcelFileUtility();
+	 public JavaUtility jUtil = new JavaUtility();
 	 WebDriver driver;
 	
 	//@BeforeSuite()
@@ -46,6 +47,9 @@ public class BaseClass {
 	public void bmConfig() throws IOException {
 		String ID = pUtil.readDataFromPropertiesFile("ID");
 		String PASSWORD = pUtil.readDataFromPropertiesFile("PASSWORD");
+		LoginPage lp = new LoginPage(driver);
+		lp.Login(ID, PASSWORD);
+		System.out.println("-----------Login Successfully-----------------");
 	}
 	@AfterMethod()
 	public void amConfig() {
