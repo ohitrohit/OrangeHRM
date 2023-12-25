@@ -11,20 +11,20 @@
       <![CDATA[Create new employee successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-29T22:48:34 IST" name="Default suite" finished-at="2023-11-29T22:48:51 IST" duration-ms="16244">
+  <suite started-at="2023-12-18T17:54:57 IST" name="Default suite" finished-at="2023-12-18T17:55:38 IST" duration-ms="40148">
     <groups>
     </groups>
-    <test started-at="2023-11-29T22:48:34 IST" name="Default test" finished-at="2023-11-29T22:48:51 IST" duration-ms="16244">
-      <class name="orangeHRM.CreateEmployee.CreateEmpoyee">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:34 IST" name="bcConfig" finished-at="2023-11-29T22:48:42 IST" duration-ms="7359" status="PASS">
+    <test started-at="2023-12-18T17:54:57 IST" name="Default test" finished-at="2023-12-18T17:55:38 IST" duration-ms="40148">
+      <class name="orangeHRM.CreateEmployee.CreateEmpoyeetest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyeetest@117159c0]" started-at="2023-12-18T17:54:57 IST" name="bcConfig" finished-at="2023-12-18T17:55:28 IST" duration-ms="30474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:42 IST" name="bmConfig" finished-at="2023-11-29T22:48:44 IST" duration-ms="2598" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyeetest@117159c0]" started-at="2023-12-18T17:55:28 IST" name="bmConfig" finished-at="2023-12-18T17:55:31 IST" duration-ms="2703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createEmployee()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:44 IST" name="createEmployee" finished-at="2023-11-29T22:48:49 IST" duration-ms="4749" status="PASS">
+        <test-method signature="createEmployee()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyeetest@117159c0]" started-at="2023-12-18T17:55:31 IST" name="createEmployee" finished-at="2023-12-18T17:55:36 IST" duration-ms="5301" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on the PIM button successfully]]>
@@ -37,15 +37,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- createEmployee -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:49 IST" name="amConfig" finished-at="2023-11-29T22:48:50 IST" duration-ms="1219" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyeetest@117159c0]" started-at="2023-12-18T17:55:36 IST" name="amConfig" finished-at="2023-12-18T17:55:37 IST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyee@117159c0]" started-at="2023-11-29T22:48:50 IST" name="acConfig" finished-at="2023-11-29T22:48:51 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:orangeHRM.CreateEmployee.CreateEmpoyeetest@117159c0]" started-at="2023-12-18T17:55:37 IST" name="acConfig" finished-at="2023-12-18T17:55:38 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-      </class> <!-- orangeHRM.CreateEmployee.CreateEmpoyee -->
+      </class> <!-- orangeHRM.CreateEmployee.CreateEmpoyeetest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
